@@ -12,4 +12,5 @@ zake = Student('zake','30')
 
 score=zake.score(80,43,39)
 print(getattr(zake,"class_"))
+print(zake.__dict__)
 
